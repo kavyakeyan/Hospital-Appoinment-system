@@ -1,0 +1,313 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8bbd0; /* Darker baby pink background */
+    color: #000;
+}
+
+/* Navigation Menu */
+.nav-back {
+    background: rgb(245, 124, 124);
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* Hero Section */
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url("./hero.jpeg") center center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero .container {
+    padding-top: 80px;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+
+#hero h2 {
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.main-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.main-btn:hover {
+    background: #F57C7C;
+    border: 2px solid #F57C7C;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Services Section */
+#services {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+#services h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #F57C7C;
+}
+
+.list-group-item {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+/* About Us Section */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+    color: #000;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #F57C7C;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about img {
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a stylish effect */
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+/* Medical Camps Section */
+#medical-camps {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    color: #000;
+}
+
+#medical-camps h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #F57C7C;
+}
+
+#medical-camps p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#medical-camps img {
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a stylish effect */
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+/* Contact Section Styling */
+#contact {
+    background-color: #f5f5f5; /* Light background for contrast */
+    padding: 50px 0;
+}
+
+#contact h2 {
+    color: #F57C7C;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Form Button */
+.form-group .btn-form {
+    background: #F57C7C;
+    border: 2px solid #F57C7C;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.form-group .btn-form:hover {
+    background: #00bfa5;
+    border-color: #00bfa5;
+    transform: scale(1.05); /* Hover effect for buttons */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    background: rgb(245, 124, 124);
+    color: #000;
+}
+
+.footer .btn-back {
+    background: #fff;
+    color: #F57C7C;
+}
+
+.footer .text {
+    color: #000;
+}
+
+/* Additional Minor Changes */
+/* Form Input Padding */
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px; /* Rounded corners for form inputs */
+}
+
+/* Updated spacing for form elements */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Subtle box-shadow for form and button */
+.form-control, .btn-form {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Consultations Form Styling */
+.consultation-container {
+    background-color: #ffffff; /* White background for the form */
+    border: 2px solid #F57C7C; /* Visible border color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 20px; /* Inner padding */
+    max-width: 600px; /* Optional: limit the width of the form */
+    margin: auto; /* Center the form */
+}
+
+h2 {
+    color: #F57C7C; /* Color for headings */
+    margin-bottom: 15px; /* Reduced space below headings */
+}
+
+/* Form Labels */
+.consultation-form-group label {
+    font-weight: bold; /* Bold labels */
+    color: #333; /* Darker color for better visibility */
+}
+
+/* Input Fields */
+.consultation-form-group {
+    margin-bottom: 4px; /* Equal margin for all form groups */
+}
+
+.consultation-form-control {
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded input fields */
+    transition: box-shadow 0.3s; /* Smooth transition for focus */
+    padding: 6px; /* Adjust padding for all inputs */
+}
+
+#contact {
+    padding: 4px; /* Reduce padding for contact input */
+}
+
+.consultation-form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 191, 165, 0.5); /* Subtle glow effect */
+}
+
+/* Button Styling */
+.btn-consultation {
+    background-color: #F57C7C; /* Button background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 6px 12px; /* Adjusted button padding for a balanced look */
+    border-radius: 5px; /* Rounded button */
+    transition: background-color 0.3s; /* Smooth transition */
+    display: block; /* Make the button a block element */
+    margin: 20px auto; /* Center the button */
+}
+
+.btn-consultation:hover {
+    background-color: #00bfa5; /* Change background on hover */
+}
