@@ -1,4 +1,4 @@
-ChatGPT
+
 🏥 Hospital Appointment System
 🌟 Overview
 The Hospital Appointment System is a simple web-based app that helps patients, doctors, and admins manage appointments efficiently. Patients can book appointments, while doctors and admins can handle schedules and view appointment details.
